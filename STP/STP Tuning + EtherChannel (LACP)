@@ -1,0 +1,17 @@
+! Force SW1 as Root Bridge for VLAN 10
+spanning-tree vlan 10 priority 4096
+spanning-tree vlan 20 priority 8192
+!
+! Enable PortFast + BPDU Guard on access ports
+interface range Fa0/1 - 20
+spanning-tree portfast
+spanning-tree bpduguard enable
+!
+! EtherChannel (LACP) between SW1 and SW2
+interface range Gi0/1 - 2
+channel-protocol lacp
+channel-group 1 mode active
+switchport mode trunk
+interface Port-channel 1
+switchport mode trunk
+switchport trunk allowed vlan 10,20,99
