@@ -11,10 +11,21 @@ CCNA 200-301 routing objectives.
 |-----|-------|-----------|
 | 01
  | OSPF Single-Area | Intermediate |
-| 02
- | OSPF Multi-Area
- | Advanced
- |
+| 01
+ | OSPF Single-Area | Intermediate |
+| 01
+ | OSPF Single-Area | Intermediate |
+| 01
+ | OSPF Single-Area | Intermediate |
+| 01
+ | OSPF Single-Area | Intermediate |
+| 01
+ | OSPF Single-Area | Intermediate |
+| 01
+ | OSPF Single-Area | Intermediate |
+| 01
+ | OSPF Single-Area | Intermediate |
+
 
 
 | Lab | Topic |
