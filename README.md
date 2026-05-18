@@ -1,4 +1,4 @@
-# ccna-routing-protocols
+# CCNA Labs Overview
 ![CCNA](https://img.shields.io/badge/CCNA-Passed-orange?style=flat-square)
 ![GNS3](https://img.shields.io/badge/Sim-GNS3-blue?style=flat-square)
 ## Overview
