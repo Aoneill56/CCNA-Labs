@@ -1,0 +1,15 @@
+! Block SALES vlan from reaching ENGINEERING vlan
+ip access-list extended SALES_TO_ENG
+deny
+ ip 192.168.10.0 0.0.0.255 192.168.20.0 0.0.0.255
+permit ip any any
+interface GigabitEthernet0/0.10
+ip access-group SALES_TO_ENG in
+!
+! Allow only SSH (22) inbound on WAN
+ip access-list extended WAN_IN
+permit tcp any any eq 22
+deny
+ ip any any log
+interface GigabitEthernet0/1
+ip access-group WAN_IN in
