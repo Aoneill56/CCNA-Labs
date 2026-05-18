@@ -1,0 +1,10 @@
+show ip ospf neighbor
+ ! verify adjacencies
+show ip ospf database
+ ! check LSDBs
+show ip route ospf
+ ! O routes in table
+show ip ospf interface brief
+ ! cost + state per interface
+ping 3.3.3.3 source 1.1.1.1
+ ! end-to-end reachability
