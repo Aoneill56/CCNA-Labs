@@ -7,32 +7,12 @@ CCNA 200-301 routing objectives.
 ## Labs
 
 ## Labs
-| Lab | Topic | Difficulty |
-|-----|-------|-----------|
-| 01
- | OSPF Single-Area | Intermediate |
-| 01
- | OSPF Single-Area | Intermediate |
-| 01
- | OSPF Single-Area | Intermediate |
-| 01
- | OSPF Single-Area | Intermediate |
-| 01
- | OSPF Single-Area | Intermediate |
-| 01
- | OSPF Single-Area | Intermediate |
-| 01
- | OSPF Single-Area | Intermediate |
-| 01
- | OSPF Single-Area | Intermediate |
-
-
-
 | Lab | Topic |
-|-----||------|
-| 01 | OSPF | Configuration of OSPF |
+|-----|-------|
+| 01
+ | OSPF Single-Area | Intermediate |
 | 02
- | EIGRP,| Configuration of EIGRP |
+ | EIGRP,| Configuration of EIGRP 
 | 03
  | VLANs, | Implementing VLANs |
 | 04
@@ -40,7 +20,8 @@ CCNA 200-301 routing objectives.
 | 05
  | EtherChannel, | Redundancy tuning |
 | 06
- | Port-Security, | Security hardening |
+ | Port-Security, | Security hardening 
+
 ## Tools Used
 - GNS3 for simulation
 - Wireshark for packet capture
