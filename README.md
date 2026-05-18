@@ -8,11 +8,17 @@ CCNA 200-301 routing objectives.
 | Lab | Topic |
 |-----|-------|
 | 01
- | OSPF, EIGRP, BGP|
+ | OSPF, |
 | 02
- | VLANs, STP, EtherChannel, Port-Security
- | Advanced
- |
+ | EIGRP,|
+| 03
+ | VLANs, |
+| 04
+ | STP, |
+| 05
+ | EtherChannel, |
+| 06
+ | Port-Security, |
 ## Tools Used
 - GNS3 for simulation
 - Wireshark for packet capture
