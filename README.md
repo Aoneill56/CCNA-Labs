@@ -5,20 +5,20 @@
 Hands-on lab configurations for OSPF, EIGRP, and BGP covering
 CCNA 200-301 routing objectives.
 ## Labs
-| Lab |
+| Lab | Topic |
 |-----|
 | 01
- | OSPF, |
+ | OSPF, | Configuration of OSPF
 | 02
- | EIGRP,|
+ | EIGRP,| Configuration of EIGRP
 | 03
- | VLANs, |
+ | VLANs, | Implementing VLANs 
 | 04
- | STP, |
+ | STP, | Layer 2 optimization
 | 05
- | EtherChannel, |
+ | EtherChannel, | Redundancy tuning
 | 06
- | Port-Security, |
+ | Port-Security, | Security hardening
 ## Tools Used
 - GNS3 for simulation
 - Wireshark for packet capture
