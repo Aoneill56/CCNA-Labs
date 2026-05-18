@@ -9,17 +9,11 @@ CCNA 200-301 routing objectives.
 ## Labs
 | Lab | Topic |
 |-----|-------|
-| 01
  | OSPF Single-Area | Intermediate |
-| 02
  | EIGRP,| Configuration of EIGRP 
-| 03
  | VLANs, | Implementing VLANs |
-| 04
  | STP, | Layer 2 optimization |
-| 05
  | EtherChannel, | Redundancy tuning |
-| 06
  | Port-Security, | Security hardening 
 
 ## Tools Used
