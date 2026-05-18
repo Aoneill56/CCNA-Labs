@@ -7,8 +7,7 @@ CCNA 200-301 routing objectives.
 ## Labs
 | Lab | Topic |
 |-----||------|
-| 01
- | OSPF, | Configuration of OSPF |
+| 01 | OSPF, | Configuration of OSPF |
 | 02
  | EIGRP,| Configuration of EIGRP |
 | 03
