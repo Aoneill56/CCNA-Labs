@@ -5,8 +5,8 @@
 Hands-on lab configurations for OSPF, EIGRP, and BGP covering
 CCNA 200-301 routing objectives.
 ## Labs
-| Lab | Topic |
-|-----|-------|
+| Lab |
+|-----|
 | 01
  | OSPF, |
 | 02
