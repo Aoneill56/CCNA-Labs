@@ -1,0 +1,19 @@
+! DHCP Server on R1
+ip dhcp excluded-address 192.168.10.1 192.168.10.10
+ip dhcp pool SALES_POOL
+network 192.168.10.0 255.255.255.0
+default-router 192.168.10.1
+dns-server 8.8.8.8 1.1.1.1
+lease 7
+!
+! PAT (NAT Overload)
+interface GigabitEthernet0/1
+description WAN-to-ISP
+ip address 203.0.113.2 255.255.255.252
+ip nat outside
+interface GigabitEthernet0/0
+ip nat inside
+!
+ip access-list standard NAT_ACL
+permit 192.168.0.0 0.0.255.255
+ip nat inside source list NAT_ACL interface GigabitEthernet0/1 overload
